@@ -13,7 +13,7 @@ import ProfilePage from "./pages/ProfilePage";
 import PlacePage from "./pages/PlacePage";
 import PlacesPage from "./pages/PlacesPage";
 import { UserContextProvider } from "./UserContext";
-axios.defaults.baseURL = "https://airbnb-backend-v1.onrender.com/";
+axios.defaults.baseURL = "https://airbnb-backend-v1.onrender.com";
 axios.defaults.withCredentials = true;
 function App() {
   return (
